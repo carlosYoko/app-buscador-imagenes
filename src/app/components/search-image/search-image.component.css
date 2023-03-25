@@ -1,0 +1,11 @@
+@media (min-width: 320px) {
+  .media {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 1023px) {
+  .media {
+    margin-top: 0px;
+  }
+}

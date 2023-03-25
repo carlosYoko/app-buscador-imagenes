@@ -1,0 +1,20 @@
+<div class="h-100 p-5 bg-light border rounded-3">
+  <form (ngSubmit)="searchImages()">
+    <div class="row">
+      <div class="col-lg-8">
+        <input
+          [(ngModel)]="nameImage"
+          name="img"
+          type="text"
+          class="form-control"
+          placeholder="Busca una imagen"
+        />
+      </div>
+      <div class="col-lg-4">
+        <div class="d-grid media">
+          <button type="submit" class="btn btn-block">Buscar</button>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
